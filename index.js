@@ -53,6 +53,7 @@ function callNTspRoutingV1() {
             document.getElementById('fitness_field').innerHTML = fitness;
             document.getElementById('distance_field').innerHTML = distance;
             document.getElementById('fitness_container').classList.remove('hidden');
+            document.getElementById('distance_field').classList.remove('hidden');
 
             var map = new google.maps.Map(document.getElementById('map'), {
                         zoom: 8,
@@ -118,6 +119,7 @@ function callNTspRoutingV2() {
             document.getElementById('fitness_field').innerHTML = fitness;
             document.getElementById('distance_field').innerHTML = distance;
             document.getElementById('fitness_container').classList.remove('hidden');
+            document.getElementById('distance_field').classList.remove('hidden');
 
             var map = new google.maps.Map(document.getElementById('map'), {
                         zoom: 8,
@@ -183,6 +185,7 @@ function callNTspRoutingV3() {
             document.getElementById('fitness_field').innerHTML = fitness;
             document.getElementById('distance_field').innerHTML = distance;
             document.getElementById('fitness_container').classList.remove('hidden');
+            document.getElementById('distance_field').classList.remove('hidden');
 
             var map = new google.maps.Map(document.getElementById('map'), {
                         zoom: 8,
