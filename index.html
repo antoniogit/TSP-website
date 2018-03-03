@@ -39,10 +39,6 @@
     </style>
   </head>
   <body>
-<!--     <div id="floating-panel">
-      <input id="address" type="textbox" value="Sydney, NSW">
-      <input id="submit" type="button" value="Geocode">
-    </div> -->
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-5">
@@ -51,13 +47,21 @@
     </div>
     <div class="row">
       <div class="col-md-1"></div>
+
+      <div class="col-md-3">
+        <button type="button" class="btn btn-primary" onclick="callNTspRoutingV1()">N TSP routing V1</button>
+      </div>
+
       <div class="col-md-3">
         <button type="button" class="btn btn-warning" onclick="callNTspRoutingV2()">N TSP routing V2</button>
       </div>
-      <div class="col-md-5">
-        <button type="button" class="btn btn-primary" onclick="callNTspRoutingV1()">N TSP routing V1</button>
+
+      <div class="col-md-3">
+        <button type="button" class="btn btn-danger" onclick="callNTspRoutingV3()">N TSP routing V3</button>
       </div>
+      <div class="col-md-2"></div>
     </div>
+
     <div class="row">
       <div class="col-md-5"></div>
       <div class="col-md-7">
@@ -68,6 +72,12 @@
         <div class="col-md-1"></div>
         <div class="col-md-11">
           <div id="fitness_container" class="hidden">Solution fitness is: <span id='fitness_field'></span> minutes</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+          <div id="fitness_container" class="hidden">Solution overall driven distnace is: <span id='distance_field'></span> km</div>
         </div>
     </div>
     <br>
