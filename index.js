@@ -39,7 +39,7 @@ function callNTspRoutingV1() {
         jsonData = JSON.parse(data);
         nodes = jsonData['message'];
         fitness =  jsonData['fitness'];
-        distnace = jsonData['distance'];
+        distance = jsonData['distance'];
 
         var driversNodes = [];
 
@@ -104,7 +104,7 @@ function callNTspRoutingV2() {
         jsonData = JSON.parse(data);
         nodes = jsonData['message'];
         fitness =  jsonData['fitness'];
-        distnace = jsonData['distance'];
+        distance = jsonData['distance'];
 
         var driversNodes = [];
 
@@ -169,7 +169,7 @@ function callNTspRoutingV3() {
         jsonData = JSON.parse(data);
         nodes = jsonData['message'];
         fitness =  jsonData['fitness'];
-        distnace = jsonData['distance'];
+        distance = jsonData['distance'];
 
         var driversNodes = [];
 
